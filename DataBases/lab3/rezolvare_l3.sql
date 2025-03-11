@@ -14,7 +14,7 @@ SELECT
     SUBSTR(nume,0,INSTR(nume,' ')) AS Prenume,
     length(SUBSTR(nume,0,INSTR(nume,' '))) AS Lungime
 FROM Student 
-WHERE length(SUBSTR(nume,0,INSTR(nume,' '))) >= 7;
+WHERE length(SUBSTR(nume,0,INSTR(nume,' ')-1)) >= 7;
 
 --ex4
 SELECT * FROM STUDENT 
