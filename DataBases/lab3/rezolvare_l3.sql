@@ -45,7 +45,7 @@ SELECT
     cnp,
     an
 FROM STUDENT 
-WHERE trim(SUBSTR(nume,0,INSTR(nume,' '))) LIKE '%a'; //pt muieri
+WHERE trim(SUBSTR(nume,0,INSTR(nume,' '))) LIKE '%a'; 
 WHERE trim(SUBSTR(nume,0,INSTR(nume,' '))) NOT LIKE '%a';
 
 --ex9
